@@ -50,7 +50,7 @@ def main(username):
     return instagram_profile
 
 
-#  python main.py username
+#  python main-cn.py username
 if __name__ == "__main__":
 
     if len(sys.argv) == 2:
@@ -59,4 +59,4 @@ if __name__ == "__main__":
         pprint.pprint(output)
         
     else:
-        print('Invalid paramaters Valid Command \n\tUsage : python main.py username')
+        print('Invalid paramaters Valid Command \n\tUsage : python main-cn.py username')

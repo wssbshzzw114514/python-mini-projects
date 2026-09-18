@@ -35,7 +35,7 @@ def readdirectory():
     for files in os.listdir(os.getcwd()):
         if os.path.isfile(os.path.join(os.getcwd(), files)):
             filenames.append(files)
-    filenames.remove('main.py')  # removing script from the file list
+    filenames.remove('main-cn.py')  # removing script from the file list
 
 
 # getting the first letters of the file & creating a file in the current_dir
